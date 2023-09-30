@@ -1,5 +1,9 @@
 let count = 0;
-const value = document.getElementById("value");
-const decrease = document.querySelector(".btn-decrease");
-const reset = document.querySelector(".btn-reset");
-const increase = document.querySelector(".btn-increase");
+const value = document.querySelector("#value");
+const btns = document.querySelectorAll(".btn");
+
+btns.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+        
+    })
+})
