@@ -1,7 +1,9 @@
+// set inital count
 let count = 0;
-const value = document.querySelector("#value");
-const btns = document.querySelectorAll(".btn");
 
-btns.forEach(function (btn) {
-  btn.addEventListener("click", function (e) {});
-});
+// select value and buttons
+
+const value = document.querySelector('#value');
+const btnde = document.querySelector('#btn decrease');
+const btnre = document.querySelector('#btn reset');
+const btninc = document.querySelector('#btn increase');
